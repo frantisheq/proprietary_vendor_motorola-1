@@ -57,7 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/athene/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
     vendor/motorola/athene/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/motorola/athene/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/athene/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/motorola/athene/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/motorola/athene/proprietary/vendor/bin/DR_AP_Service:$(TARGET_COPY_OUT_VENDOR)/bin/DR_AP_Service \
     vendor/motorola/athene/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
