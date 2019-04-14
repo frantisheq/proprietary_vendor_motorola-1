@@ -6,7 +6,7 @@
     </permission>
     <permission name="com.motorola.mod.permission.MOD_SERVICE" >
     </permission>
-    <permission name="com.motorola.permission.INTERACT_ACROSS_USERS_FULL" >
+    <permission name="android.permission.INTERACT_ACROSS_USERS_FULL" >
     </permission>
     <feature name="com.motorola.hardware.mods" />
 </permissions>
